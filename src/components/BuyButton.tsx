@@ -25,23 +25,19 @@ const BuyButton: React.FC<BuyButtonProps> = ({ templateName, price, templateSlug
   };
 
   const handlePurchase = () => {
-    const priceId = getStripePriceId(templateSlug);
-    
-    // In a real implementation, this would call your backend to create a Stripe checkout session
+    // For all purchases, we're now using the provided Stripe link
     toast({
       title: "Redirecting to payment",
       description: `You'll be redirected to complete your purchase for ${templateName}`,
       duration: 3000,
     });
     
-    // Simulate redirecting to Stripe Checkout
-    // In production, this would be an actual API call to your backend
+    // Redirect to Stripe checkout
     setTimeout(() => {
-      // This is simulating the redirect - in production we'd redirect to the Stripe Checkout URL
-      window.location.href = `/thank-you/${templateSlug}`; 
+      window.location.href = "https://buy.stripe.com/6oU00i8ot2bW4hf94n7kc01";
       
-      // In production with an actual Stripe integration, this would be:
-      // window.location.href = checkoutSession.url;
+      // After successful payment, Stripe will redirect back to our thank-you page
+      // This is handled by the Stripe configuration (success_url)
     }, 1500);
   };
 

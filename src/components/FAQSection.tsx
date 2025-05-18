@@ -12,11 +12,11 @@ const faqs = [
   },
   {
     question: "What skills do I need to edit these templates?",
-    answer: "Basic knowledge of HTML, CSS, and JavaScript is recommended. If you're familiar with VS Code and understand how to edit text and replace images in code, you should be able to customize our templates easily."
+    answer: "Basic knowledge of React, Next.js, and Tailwind CSS is recommended. If you're familiar with VS Code and understand how to edit React components and page files, you should be able to customize our templates easily."
   },
   {
     question: "How do I get support if I have questions?",
-    answer: "We provide detailed documentation with each template. For additional support, you can contact our team via email, and we typically respond within 24 hours on business days."
+    answer: "For support, you can contact our team directly via email at david.oludepo@gmail.com, and we typically respond within 24 hours on business days."
   },
   {
     question: "Can I get a refund if I'm not satisfied?",
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     question: "How are the templates delivered?",
-    answer: "After completing your purchase, you'll receive an email with download links for the templates you bought. The bundle comes as a zip file containing all 52 templates with their respective documentation."
+    answer: "Templates are downloaded immediately after payment directly to your device. For more information on using the templates after download, please check our How to Edit section."
   }
 ];
 

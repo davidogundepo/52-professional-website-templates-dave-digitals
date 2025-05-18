@@ -11,7 +11,7 @@ const HowToEditPage = () => {
         <meta name="keywords" content="edit website templates, customize templates, web development tutorial" />
       </Helmet>
       
-      <div className="bg-gradient-to-r from-indigo-50 via-purple-50 to-indigo-50 py-16">
+      <div className="bg-gradient-to-r from-green-50 via-green-50 to-green-50 py-16">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-4">How to Edit Your Templates</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -27,7 +27,7 @@ const HowToEditPage = () => {
             <div className="space-y-12">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
                 <div className="md:col-span-1">
-                  <div className="w-16 h-16 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4 text-2xl font-bold">1</div>
+                  <div className="w-16 h-16 rounded-full bg-green-100 text-green-600 flex items-center justify-center mb-4 text-2xl font-bold">1</div>
                   <h3 className="text-xl font-semibold mb-2">Download & Extract</h3>
                   <p className="text-gray-600">
                     After purchasing, download the template ZIP file and extract it to your preferred location.
@@ -53,7 +53,7 @@ const HowToEditPage = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
                 <div className="md:col-span-1">
-                  <div className="w-16 h-16 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4 text-2xl font-bold">2</div>
+                  <div className="w-16 h-16 rounded-full bg-green-100 text-green-600 flex items-center justify-center mb-4 text-2xl font-bold">2</div>
                   <h3 className="text-xl font-semibold mb-2">Open in VS Code</h3>
                   <p className="text-gray-600">
                     Open Visual Studio Code or your preferred code editor and open the template folder.
@@ -79,10 +79,10 @@ const HowToEditPage = () => {
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
                 <div className="md:col-span-1">
-                  <div className="w-16 h-16 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4 text-2xl font-bold">3</div>
+                  <div className="w-16 h-16 rounded-full bg-green-100 text-green-600 flex items-center justify-center mb-4 text-2xl font-bold">3</div>
                   <h3 className="text-xl font-semibold mb-2">Customize Content</h3>
                   <p className="text-gray-600">
-                    Replace placeholder text, images, and contact information with your own content.
+                    Replace placeholder text, images, and contact information with your own content in the TSX files.
                   </p>
                 </div>
                 <div className="md:col-span-2 bg-gray-50 rounded-lg p-6">
@@ -98,17 +98,17 @@ const HowToEditPage = () => {
                     />
                   </div>
                   <div className="mt-4 text-sm text-gray-600">
-                    <strong>Pro Tip:</strong> Use the search function (Ctrl+F or Cmd+F) to quickly find placeholder text.
+                    <strong>Pro Tip:</strong> Use the search function (Ctrl+F or Cmd+F) to quickly find placeholder text in components and pages.
                   </div>
                 </div>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
                 <div className="md:col-span-1">
-                  <div className="w-16 h-16 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4 text-2xl font-bold">4</div>
+                  <div className="w-16 h-16 rounded-full bg-green-100 text-green-600 flex items-center justify-center mb-4 text-2xl font-bold">4</div>
                   <h3 className="text-xl font-semibold mb-2">Modify Styles</h3>
                   <p className="text-gray-600">
-                    Update colors, fonts, and other visual elements to match your brand identity.
+                    Update Tailwind classes and styles to match your brand identity.
                   </p>
                 </div>
                 <div className="md:col-span-2 bg-gray-50 rounded-lg p-6">
@@ -124,17 +124,17 @@ const HowToEditPage = () => {
                     />
                   </div>
                   <div className="mt-4 text-sm text-gray-600">
-                    <strong>Pro Tip:</strong> Look for CSS variables at the top of stylesheets for easy color and font changes.
+                    <strong>Pro Tip:</strong> Look for Tailwind classes in the component files for easy color and styling changes.
                   </div>
                 </div>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
                 <div className="md:col-span-1">
-                  <div className="w-16 h-16 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4 text-2xl font-bold">5</div>
+                  <div className="w-16 h-16 rounded-full bg-green-100 text-green-600 flex items-center justify-center mb-4 text-2xl font-bold">5</div>
                   <h3 className="text-xl font-semibold mb-2">Preview Changes</h3>
                   <p className="text-gray-600">
-                    Test your changes locally by opening the HTML files in your browser.
+                    Test your changes locally by running npm run dev on your terminal and viewing the pages in your browser.
                   </p>
                 </div>
                 <div className="md:col-span-2 bg-gray-50 rounded-lg p-6">
@@ -150,17 +150,17 @@ const HowToEditPage = () => {
                     />
                   </div>
                   <div className="mt-4 text-sm text-gray-600">
-                    <strong>Pro Tip:</strong> Use the "Live Server" extension in VS Code for real-time previews as you edit.
+                    <strong>Pro Tip:</strong> Check your site on different devices using the browser developer tools.
                   </div>
                 </div>
               </div>
               
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
                 <div className="md:col-span-1">
-                  <div className="w-16 h-16 rounded-full bg-primary/10 text-primary flex items-center justify-center mb-4 text-2xl font-bold">6</div>
+                  <div className="w-16 h-16 rounded-full bg-green-100 text-green-600 flex items-center justify-center mb-4 text-2xl font-bold">6</div>
                   <h3 className="text-xl font-semibold mb-2">Deploy Your Website</h3>
                   <p className="text-gray-600">
-                    Upload your files to a web hosting service or deploy using platforms like Netlify or Vercel.
+                    Upload your files to a web hosting service or deploy using platforms like Vercel or Netlify.
                   </p>
                 </div>
                 <div className="md:col-span-2 bg-gray-50 rounded-lg p-6">
@@ -183,37 +183,18 @@ const HowToEditPage = () => {
             </div>
           </div>
           
-          <div className="mb-16">
-            <h2 className="text-2xl font-bold mb-6">Video Tutorial</h2>
-            <div className="aspect-video bg-gray-100 rounded-lg flex items-center justify-center">
-              <div className="text-center p-8">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-16 w-16 text-gray-400 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                <p className="text-gray-600">Video tutorial demonstrating template customization</p>
-              </div>
-            </div>
-          </div>
-          
           <div>
             <h2 className="text-2xl font-bold mb-6">Need Help?</h2>
             <div className="bg-white rounded-lg shadow-sm border p-6">
               <p className="mb-4">
-                If you encounter any issues while editing your templates, our support team is here to help. Contact us via email or check our documentation for additional guidance.
+                If you encounter any issues while editing your templates, contact us for assistance at david.oludepo@gmail.com
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <a 
-                  href="mailto:support@davedigitals.com" 
+                  href="mailto:david.oludepo@gmail.com" 
                   className="btn-primary text-center"
                 >
                   Contact Support
-                </a>
-                <a 
-                  href="/docs" 
-                  className="btn-secondary text-center"
-                >
-                  View Documentation
                 </a>
               </div>
             </div>

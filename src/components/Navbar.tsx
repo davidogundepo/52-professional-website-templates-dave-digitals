@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Search, ShoppingCart } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,15 +34,6 @@ const Navbar = () => {
                 Contact
               </Link>
             </div>
-          </div>
-          
-          <div className="hidden md:flex items-center">
-            <button className="p-2 rounded-full text-gray-600 hover:text-green-600 transition-colors">
-              <Search className="h-5 w-5" />
-            </button>
-            <Link to="/cart" className="p-2 rounded-full text-gray-600 hover:text-green-600 transition-colors ml-2">
-              <ShoppingCart className="h-5 w-5" />
-            </Link>
           </div>
           
           <div className="flex md:hidden">
@@ -99,14 +90,6 @@ const Navbar = () => {
             >
               Contact
             </Link>
-            <div className="flex space-x-3 px-3 py-2">
-              <button className="p-2 rounded-full text-gray-600 hover:text-green-600 transition-colors">
-                <Search className="h-5 w-5" />
-              </button>
-              <Link to="/cart" className="p-2 rounded-full text-gray-600 hover:text-green-600 transition-colors">
-                <ShoppingCart className="h-5 w-5" />
-              </Link>
-            </div>
           </div>
         </div>
       )}

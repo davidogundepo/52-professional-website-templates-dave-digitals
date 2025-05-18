@@ -17,7 +17,7 @@ const BundlePage = () => {
         <meta name="keywords" content="website templates bundle, template pack, web design bundle, professional templates" />
       </Helmet>
       
-      <section className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-20">
+      <section className="bg-gradient-to-r from-green-600 to-green-700 text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-4">Get All 52 Templates</h1>
           <p className="text-xl max-w-3xl mx-auto mb-8">
@@ -37,7 +37,7 @@ const BundlePage = () => {
                     <p className="text-gray-600">All 52 premium website templates</p>
                   </div>
                   <div className="mt-4 md:mt-0 text-right">
-                    <div className="text-3xl font-bold text-primary">$129</div>
+                    <div className="text-3xl font-bold text-green-600">$129</div>
                     <div className="text-gray-500 line-through">${totalValue}</div>
                     <div className="text-green-600 font-medium">Save {discount}%</div>
                   </div>
@@ -62,7 +62,7 @@ const BundlePage = () => {
                       <svg className="h-5 w-5 text-green-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                       </svg>
-                      <span>Lifetime updates and access</span>
+                      <span>Lifetime access</span>
                     </li>
                     <li className="flex items-start">
                       <svg className="h-5 w-5 text-green-500 mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -82,6 +82,7 @@ const BundlePage = () => {
                 <BuyButton 
                   templateName="Complete Template Bundle" 
                   price={bundlePrice}
+                  templateSlug="full-template-bundle"
                   bundle={true}
                 />
                 
@@ -95,8 +96,8 @@ const BundlePage = () => {
               <h2 className="text-2xl font-bold mb-6">Bundle Benefits</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="border rounded-lg p-6 hover:shadow-md transition-shadow">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
@@ -107,20 +108,20 @@ const BundlePage = () => {
                 </div>
                 
                 <div className="border rounded-lg p-6 hover:shadow-md transition-shadow">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                   </div>
                   <h3 className="font-semibold text-lg mb-2">Lifetime Access</h3>
                   <p className="text-gray-600">
-                    Get immediate access to all current and future templates in the bundle, with no recurring fees.
+                    Get immediate access to all current templates in the bundle, with no recurring fees.
                   </p>
                 </div>
                 
                 <div className="border rounded-lg p-6 hover:shadow-md transition-shadow">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                     </svg>
                   </div>
@@ -138,7 +139,7 @@ const BundlePage = () => {
                 <div>
                   <h3 className="font-semibold mb-2">How is the bundle delivered?</h3>
                   <p className="text-gray-600">
-                    After purchase, you'll receive an email with a download link to access all 52 templates as a single ZIP file. Each template includes its own folder with all necessary files and documentation.
+                    The bundle is delivered by downloading the zip to your device which you can later edit in VS Code. Please check the tutorial video through the How to Edit page for more details.
                   </p>
                 </div>
                 
@@ -146,13 +147,6 @@ const BundlePage = () => {
                   <h3 className="font-semibold mb-2">Can I use these templates for client projects?</h3>
                   <p className="text-gray-600">
                     Absolutely! Your purchase includes a commercial license that allows you to use any template for an unlimited number of projects, including client websites.
-                  </p>
-                </div>
-                
-                <div>
-                  <h3 className="font-semibold mb-2">Do I get access to future template updates?</h3>
-                  <p className="text-gray-600">
-                    Yes, when we release updates for any template in the bundle, you'll have access to download the updated versions at no extra cost.
                   </p>
                 </div>
                 
