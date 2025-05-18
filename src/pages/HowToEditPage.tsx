@@ -36,9 +36,10 @@ const HowToEditPage = () => {
                 <div className="md:col-span-2 bg-gray-50 rounded-lg p-6">
                   <div className="border border-gray-200 rounded-lg overflow-hidden">
                     <img 
-                      src="https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FMining%20and%20Minerals%2FPiv.png?alt=media&token=593b3f66-de1a-4516-b291-b613d4b616f1" 
+                      src="https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2F__Misc%2FScreenshot%202025-05-18%20at%2012.28.16.png?alt=media&token=99144b13-2b13-4a0f-9fa5-1d339b0de4ff" 
                       alt="Download and extract template" 
                       className="w-full h-auto object-cover"
+                      loading="lazy"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
                         target.src = '/placeholder.svg';
@@ -62,9 +63,10 @@ const HowToEditPage = () => {
                 <div className="md:col-span-2 bg-gray-50 rounded-lg p-6">
                   <div className="border border-gray-200 rounded-lg overflow-hidden">
                     <img 
-                      src="https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FInformation%20Technology%2FPiv.png?alt=media&token=a575d531-1e66-42c8-bd29-787db8fc51d1" 
+                      src="https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2F__Misc%2FScreenshot%202025-05-18%20at%2012.31.56.png?alt=media&token=cbbad060-86c1-40cb-89a2-c39dc20ac249" 
                       alt="Open in VS Code" 
                       className="w-full h-auto object-cover"
+                      loading="lazy"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
                         target.src = '/placeholder.svg';
@@ -88,9 +90,10 @@ const HowToEditPage = () => {
                 <div className="md:col-span-2 bg-gray-50 rounded-lg p-6">
                   <div className="border border-gray-200 rounded-lg overflow-hidden">
                     <img 
-                      src="https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFine%20Art%20and%20Auction%20Houses%2FPiii.png?alt=media&token=6cb9f4de-7d9d-4683-b911-eb3f1d1c3e7e" 
+                      src="https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2F__Misc%2FScreenshot%202025-05-18%20at%2012.33.43.png?alt=media&token=4e01d240-43ac-4dd6-8125-cbb47c28a32e" 
                       alt="Customize content" 
                       className="w-full h-auto object-cover"
+                      loading="lazy"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
                         target.src = '/placeholder.svg';
@@ -114,9 +117,10 @@ const HowToEditPage = () => {
                 <div className="md:col-span-2 bg-gray-50 rounded-lg p-6">
                   <div className="border border-gray-200 rounded-lg overflow-hidden">
                     <img 
-                      src="https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFashion%20and%20Apparel%2FPiii.png?alt=media&token=f0e6021c-8129-4263-bdb8-5d4447a0a675" 
+                      src="https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2F__Misc%2FScreenshot%202025-05-18%20at%2012.35.50.png?alt=media&token=46e05b8b-adc8-4824-9548-64c0927ca4fc" 
                       alt="Modify styles" 
                       className="w-full h-auto object-cover"
+                      loading="lazy"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
                         target.src = '/placeholder.svg';
@@ -143,6 +147,7 @@ const HowToEditPage = () => {
                       src="https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FRenewable%20Energy%2FPiii.png?alt=media&token=20b502ca-9632-4a58-9312-68d88d868277" 
                       alt="Preview changes" 
                       className="w-full h-auto object-cover"
+                      loading="lazy"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
                         target.src = '/placeholder.svg';
@@ -169,6 +174,7 @@ const HowToEditPage = () => {
                       src="https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBiotechnology%2FPii.png?alt=media&token=ed11ef20-d14e-454a-bb61-186ef0978c9d" 
                       alt="Deploy your website" 
                       className="w-full h-auto object-cover"
+                      loading="lazy"
                       onError={(e) => {
                         const target = e.target as HTMLImageElement;
                         target.src = '/placeholder.svg';
@@ -179,6 +185,21 @@ const HowToEditPage = () => {
                     <strong>Pro Tip:</strong> Connect your repository to Netlify or Vercel for automatic deployments when you make changes.
                   </div>
                 </div>
+              </div>
+              
+              <div className="text-center mt-8">
+                <p className="text-gray-700 font-medium">Please watch this YouTube video tutorial for better grasping:</p>
+                <a 
+                  href="https://youtu.be/4zdBk6wisxc?si=nAC7Xr0F_hU8XfU6" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-green-600 hover:text-green-800 font-medium inline-flex items-center mt-2"
+                >
+                  <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                  </svg>
+                  Watch Video Tutorial
+                </a>
               </div>
             </div>
           </div>
