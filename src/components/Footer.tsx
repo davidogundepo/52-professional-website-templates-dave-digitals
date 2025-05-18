@@ -5,18 +5,18 @@ import { Mail, Twitter, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer className="bg-gray-900 text-white py-6">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
-          <div className="mb-6 md:mb-0 text-center md:text-left">
-            <h3 className="text-xl font-semibold mb-3">Davedigitals</h3>
-            <p className="text-gray-300 max-w-xs">
-              Professional website templates for every industry. Pay once, edit easily, and own forever.
+        <div className="flex flex-wrap justify-between items-center">
+          <div className="mb-4 md:mb-0">
+            <h3 className="text-xl font-semibold">Davedigitals</h3>
+            <p className="text-gray-300 text-sm mt-1 max-w-xs">
+              Professional website templates for every industry
             </p>
           </div>
           
-          <div className="mb-6 md:mb-0">
-            <ul className="flex flex-wrap justify-center gap-6">
+          <div className="mb-4 md:mb-0">
+            <ul className="flex flex-wrap gap-4 md:gap-6 text-sm">
               <li>
                 <Link to="/" className="hover:text-green-400 transition-colors">Home</Link>
               </li>
@@ -24,7 +24,7 @@ const Footer = () => {
                 <Link to="/templates" className="hover:text-green-400 transition-colors">Templates</Link>
               </li>
               <li>
-                <Link to="/bundle" className="hover:text-green-400 transition-colors">Full Bundle</Link>
+                <Link to="/bundle" className="hover:text-green-400 transition-colors">Bundle</Link>
               </li>
               <li>
                 <Link to="/how-to-edit" className="hover:text-green-400 transition-colors">How to Edit</Link>
@@ -48,7 +48,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-6 pt-6 text-center text-gray-400">
+        <div className="border-t border-gray-800 mt-4 pt-4 text-center text-gray-400 text-sm">
           <p>© {new Date().getFullYear()} Davedigitals. All rights reserved.</p>
         </div>
       </div>
