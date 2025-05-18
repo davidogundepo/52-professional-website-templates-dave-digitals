@@ -60,7 +60,11 @@ const TemplatePage = () => {
                 <span className="ml-2 text-gray-500">One-time payment</span>
               </div>
               
-              <BuyButton templateName={template.name} price={template.price} />
+              <BuyButton 
+                templateName={template.name} 
+                price={template.price} 
+                templateSlug={template.slug} 
+              />
               
               {template.demoUrl && (
                 <a 

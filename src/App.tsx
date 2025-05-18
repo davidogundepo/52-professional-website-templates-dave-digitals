@@ -14,6 +14,7 @@ import BundlePage from "./pages/BundlePage";
 import HowToEditPage from "./pages/HowToEditPage";
 import ContactPage from "./pages/ContactPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import ThankYouPage from "./pages/ThankYouPage"; 
 
 const queryClient = new QueryClient();
 
@@ -34,6 +35,7 @@ const App = () => (
                 <Route path="/bundle" element={<BundlePage />} />
                 <Route path="/how-to-edit" element={<HowToEditPage />} />
                 <Route path="/contact" element={<ContactPage />} />
+                <Route path="/thank-you/:slug" element={<ThankYouPage />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Routes>
             </main>
