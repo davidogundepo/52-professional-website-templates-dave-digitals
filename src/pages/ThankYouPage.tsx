@@ -1,28 +1,44 @@
-
 import React, { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { templates } from '../data/templates';
 import { Template } from '../types';
 import { Helmet } from 'react-helmet-async';
 
 const ThankYouPage = () => {
   const { slug } = useParams<{ slug: string }>();
+  const [searchParams] = useSearchParams();
   const [template, setTemplate] = useState<Template | null>(null);
   const [downloadStarted, setDownloadStarted] = useState(false);
+  const [isValidAccess, setIsValidAccess] = useState(false);
 
   useEffect(() => {
+    // Check if user came from Stripe (has session_id parameter)
+    const sessionId = searchParams.get('session_id');
     const foundTemplate = templates.find(t => t.slug === slug);
+    
     setTemplate(foundTemplate || null);
     
-    // Auto-download after 3 seconds
-    const timer = setTimeout(() => {
-      if (foundTemplate) {
-        initiateDownload();
-      }
-    }, 3000);
+    // Validate access - user should have a Stripe session ID or referrer from stripe.com
+    const referrer = document.referrer;
+    const hasStripeSession = sessionId !== null;
+    const cameFromStripe = referrer.includes('checkout.stripe.com') || referrer.includes('stripe.com');
     
-    return () => clearTimeout(timer);
-  }, [slug]);
+    if (hasStripeSession || cameFromStripe) {
+      setIsValidAccess(true);
+      
+      // Auto-download after 3 seconds for valid access
+      const timer = setTimeout(() => {
+        if (foundTemplate) {
+          initiateDownload();
+        }
+      }, 3000);
+      
+      return () => clearTimeout(timer);
+    } else {
+      // For direct access without proper referrer, show a message
+      console.log('Direct access detected - showing purchase prompt');
+    }
+  }, [slug, searchParams]);
 
   const getDownloadLink = (templateSlug: string) => {
     // Map template slugs to download links
@@ -85,12 +101,11 @@ const ThankYouPage = () => {
       'makeup-beauty': 'https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FZips%20of%20Websites%2Fwebsite-52-makeup-beauty.zip?alt=media&token=80760ad4-5699-4743-ab44-81e3d47e6408'
     };
 
-    // Return the specific download link or a default one if not found
     return downloadLinks[templateSlug] || "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/Project%20Substandard%20Websites%2FUnited%20Kingdom%2F20%2Fwebsite-51-mocktail-bartending.zip?alt=media&token=15841897-d97b-4628-b302-83a51607a2ac";
   };
 
   const initiateDownload = () => {
-    if (template) {
+    if (template && isValidAccess) {
       const downloadLink = getDownloadLink(template.slug);
       const link = document.createElement('a');
       link.href = downloadLink;
@@ -101,6 +116,26 @@ const ThankYouPage = () => {
       setDownloadStarted(true);
     }
   };
+
+  // If access is not valid, show purchase prompt
+  if (!isValidAccess) {
+    return (
+      <div className="container mx-auto px-4 py-16 text-center">
+        <div className="max-w-md mx-auto">
+          <div className="inline-flex items-center justify-center w-24 h-24 rounded-full bg-red-100 text-red-600 mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+            </svg>
+          </div>
+          <h1 className="text-2xl font-bold mb-4">Access Restricted</h1>
+          <p className="text-gray-600 mb-6">
+            This download page is only accessible after completing a purchase. Please purchase the template to access your download.
+          </p>
+          <Link to="/templates" className="btn-primary">Browse Templates</Link>
+        </div>
+      </div>
+    );
+  }
 
   if (!template) {
     return (
@@ -139,6 +174,7 @@ const ThankYouPage = () => {
                 src={template.previews.PI} 
                 alt={template.name} 
                 className="w-full h-full object-cover"
+                loading="lazy"
               />
             </div>
             <div className="md:w-2/3">
