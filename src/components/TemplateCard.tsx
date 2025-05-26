@@ -12,21 +12,21 @@ const TemplateCard: React.FC<TemplateCardProps> = ({ template }) => {
   const [imageLoaded, setImageLoaded] = useState(false);
   const [imageSrc, setImageSrc] = useState<string | null>(null);
 
-  // Function to add compression parameters to Firebase Storage URLs
-  const getOptimizedImageUrl = (originalUrl: string, quality: number = 30) => {
+  // Function to add very aggressive compression parameters to Firebase Storage URLs
+  const getOptimizedImageUrl = (originalUrl: string, quality: number = 15) => {
     if (originalUrl.includes('firebasestorage.googleapis.com')) {
-      // Add compression parameters to Firebase Storage URLs
       const url = new URL(originalUrl);
       url.searchParams.set('quality', quality.toString());
       url.searchParams.set('format', 'webp');
+      url.searchParams.set('width', '400'); // Small width for cards
       return url.toString();
     }
     return originalUrl;
   };
 
   useEffect(() => {
-    // Get optimized image URL for thumbnails
-    const optimizedUrl = getOptimizedImageUrl(template.previews.PI, 40);
+    // Get heavily optimized image URL for card thumbnails (very low quality)
+    const optimizedUrl = getOptimizedImageUrl(template.previews.PI, 20);
     
     // Check if we already have this cached in sessionStorage
     const cachedImage = sessionStorage.getItem(`template-image-${template.id}`);
@@ -41,18 +41,18 @@ const TemplateCard: React.FC<TemplateCardProps> = ({ template }) => {
       img.onload = () => {
         setImageSrc(optimizedUrl);
         setImageLoaded(true);
-        // Store in sessionStorage to avoid reloading between page navigations
         sessionStorage.setItem(`template-image-${template.id}`, optimizedUrl);
       };
       
       img.onerror = () => {
-        // Fallback to original URL if optimization fails
+        // Fallback to even more compressed version
+        const fallbackUrl = getOptimizedImageUrl(template.previews.PI, 10);
         const fallbackImg = new Image();
-        fallbackImg.src = template.previews.PI;
+        fallbackImg.src = fallbackUrl;
         fallbackImg.onload = () => {
-          setImageSrc(template.previews.PI);
+          setImageSrc(fallbackUrl);
           setImageLoaded(true);
-          sessionStorage.setItem(`template-image-${template.id}`, template.previews.PI);
+          sessionStorage.setItem(`template-image-${template.id}`, fallbackUrl);
         };
         fallbackImg.onerror = () => {
           setImageSrc('/placeholder.svg');
@@ -78,6 +78,9 @@ const TemplateCard: React.FC<TemplateCardProps> = ({ template }) => {
               className={`template-card-image ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
               loading="lazy"
               decoding="async"
+              style={{ 
+                imageRendering: 'auto'
+              }}
             />
           )}
         </div>

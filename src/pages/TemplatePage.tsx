@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { templates } from '../data/templates';
@@ -26,6 +25,14 @@ const TemplatePage = () => {
     );
   }
 
+  // Convert the preview property names to match ImageGallery expectations
+  const galleryImages = {
+    PI: template.previews.PI,
+    P2: template.previews.PII,
+    P3: template.previews.PIII,
+    P4: template.previews.PIV,
+  };
+
   return (
     <>
       <Helmet>
@@ -46,7 +53,7 @@ const TemplatePage = () => {
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div>
-            <ImageGallery images={template.previews} alt={template.name} />
+            <ImageGallery images={galleryImages} alt={template.name} />
           </div>
           
           <div>

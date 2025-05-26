@@ -14,31 +14,34 @@ interface ImageGalleryProps {
 const ImageGallery: React.FC<ImageGalleryProps> = ({ images, alt }) => {
   const [selectedImage, setSelectedImage] = useState('PI');
 
-  // Function to add compression parameters to Firebase Storage URLs
-  const getOptimizedImageUrl = (originalUrl: string, quality: number = 60) => {
+  // Function to add very aggressive compression parameters to Firebase Storage URLs
+  const getOptimizedImageUrl = (originalUrl: string, quality: number = 30, width?: number) => {
     if (originalUrl.includes('firebasestorage.googleapis.com')) {
       const url = new URL(originalUrl);
       url.searchParams.set('quality', quality.toString());
       url.searchParams.set('format', 'webp');
+      if (width) {
+        url.searchParams.set('width', width.toString());
+      }
       return url.toString();
     }
     return originalUrl;
   };
 
-  // Get optimized URLs for all images
+  // Get optimized URLs for main images (still compressed but higher quality for main view)
   const optimizedImages = {
-    PI: getOptimizedImageUrl(images.PI),
-    P2: getOptimizedImageUrl(images.P2),
-    P3: getOptimizedImageUrl(images.P3),
-    P4: getOptimizedImageUrl(images.P4),
+    PI: getOptimizedImageUrl(images.PI, 40, 800),
+    P2: getOptimizedImageUrl(images.P2, 40, 800),
+    P3: getOptimizedImageUrl(images.P3, 40, 800),
+    P4: getOptimizedImageUrl(images.P4, 40, 800),
   };
 
-  // Get thumbnail versions (lower quality for small previews)
+  // Get heavily compressed thumbnail versions (very low quality and small size)
   const thumbnailImages = {
-    PI: getOptimizedImageUrl(images.PI, 30),
-    P2: getOptimizedImageUrl(images.P2, 30),
-    P3: getOptimizedImageUrl(images.P3, 30),
-    P4: getOptimizedImageUrl(images.P4, 30),
+    PI: getOptimizedImageUrl(images.PI, 15, 200),
+    P2: getOptimizedImageUrl(images.P2, 15, 200),
+    P3: getOptimizedImageUrl(images.P3, 15, 200),
+    P4: getOptimizedImageUrl(images.P4, 15, 200),
   };
 
   return (
@@ -51,6 +54,10 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({ images, alt }) => {
           className="w-full h-full object-cover transition-opacity duration-300"
           loading="lazy"
           decoding="async"
+          style={{ 
+            imageRendering: 'auto',
+            willChange: 'transform'
+          }}
         />
       </div>
       
@@ -72,6 +79,9 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({ images, alt }) => {
               className="w-full h-full object-cover"
               loading="lazy"
               decoding="async"
+              style={{ 
+                imageRendering: 'auto'
+              }}
             />
           </button>
         ))}
