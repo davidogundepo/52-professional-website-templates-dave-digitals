@@ -11,7 +11,7 @@ export const templates: Template[] = [
     shortDescription: "Professional template for petroleum companies with industry-specific features",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FOil%20and%20Gas%2FPii.png?alt=media&token=e40461b9-632d-4020-a9df-63913cf230b6",
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/69designs%2Flyno%20casino%2F2a55ae52-4bda-4064-816f-3f71739fe48d.JPG?alt=media&token=674808c2-4b77-4c1c-bb3c-ce98c8b8c45a",
       PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FOil%20and%20Gas%2FPi.png?alt=media&token=04df2329-914d-4569-a606-6b69b61318d8",
       PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FOil%20and%20Gas%2FPiii.png?alt=media&token=be70ca3f-8fd7-45d6-a1ac-332e06007738",
       PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FOil%20and%20Gas%2FPiv.png?alt=media&token=903cd17b-7e87-4198-8159-ccfc4542532b"
