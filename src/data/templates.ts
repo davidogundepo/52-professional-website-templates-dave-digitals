@@ -661,7 +661,7 @@ export const templates: Template[] = [
     shortDescription: "Creative template for advertising agencies to present services and campaign portfolios",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAdvertising%20and%20Marketing%2FPi.png?alt=media&token=4eb5cb53-09d3-4e79-b1f0-43aec569de51",
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAdvertising%20and%20Marketing%2FPI.png?alt=media&token=080bda0d-af80-4657-94bc-89880e26ff83",
       PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAdvertising%20and%20Marketing%2FPii.png?alt=media&token=d73b5559-938a-44ca-98d5-53f0654f5d25",
       PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAdvertising%20and%20Marketing%2FPiii.png?alt=media&token=30e443f4-e299-48e3-8cbd-d61067979ef3",
       PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAdvertising%20and%20Marketing%2FPiv.png?alt=media&token=15e3e16a-612b-4681-9ed2-c2e82eb7a0f6"
