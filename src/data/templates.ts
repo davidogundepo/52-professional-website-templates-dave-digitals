@@ -131,10 +131,10 @@ export const templates: Template[] = [
     shortDescription: "Sophisticated template for automotive manufacturers to showcase vehicles and services",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAutomotive%20Manufacturing%2FPi.png?alt=media&token=7d11ecde-6462-4446-a049-f254fd52c789",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAutomotive%20Manufacturing%2FPiii.png?alt=media&token=e2487de3-819b-4b1f-9f73-9312df1987fc",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAutomotive%20Manufacturing%2FPii.png?alt=media&token=6d3e4611-edea-480d-a679-872d89725716",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAutomotive%20Manufacturing%2FPiv.png?alt=media&token=817e9cc3-b2f6-47a3-8f9a-6635c10e6557"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAutomotive%20Manufacturing%2FWI.png?alt=media&token=977e3c63-be12-42ad-8956-a6d5277faf22",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAutomotive%20Manufacturing%2FWII.png?alt=media&token=384bba9c-b270-487d-95ce-ac17adb62db0",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAutomotive%20Manufacturing%2FWIII.png?alt=media&token=568c8376-dfa7-47bc-9f37-6cf6095afb37",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAutomotive%20Manufacturing%2FWIV.png?alt=media&token=35a519ff-322f-4fa6-bb1f-225aac9c3251"
     },
     demoUrl: "https://tangerine-cocada-7a150e.netlify.app/",
     features: [
@@ -203,10 +203,10 @@ export const templates: Template[] = [
     shortDescription: "Secure template for banks and financial institutions to present services and products",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBanking%20and%20Financial%20Services%2FPi.png?alt=media&token=aad95eb8-e7b2-491d-b347-930d03dccf73",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBanking%20and%20Financial%20Services%2FPii.png?alt=media&token=279b23a8-bdb8-4d0b-a759-95a13b30a280",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBanking%20and%20Financial%20Services%2FPiv.png?alt=media&token=5b384540-bed2-4979-8f98-2e26d36d48c6",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBanking%20and%20Financial%20Services%2FPiii.png?alt=media&token=035432aa-4edd-46ac-ae8a-fa2123b9a3fb"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBanking%20and%20Financial%20Services%2FWI.png?alt=media&token=306b8e6e-f5d2-4cfd-a6b9-416c95e65f55",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBanking%20and%20Financial%20Services%2FWII.png?alt=media&token=0745e86c-fc5e-4c2e-82ae-8981c1df89b9",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBanking%20and%20Financial%20Services%2FWIII.png?alt=media&token=6adc009f-9f5c-4966-baa5-99f193bb2b63",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBanking%20and%20Financial%20Services%2FWIV.png?alt=media&token=b396f007-737a-461d-a4e1-93ca0d02525a"
     },
     demoUrl: "https://dapper-raindrop-63422f.netlify.app/",
     features: [
@@ -299,10 +299,10 @@ export const templates: Template[] = [
     shortDescription: "Practical template for agricultural businesses to present farming operations and products",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAgriculture%2FPi.png?alt=media&token=2416f199-600b-4630-86e6-25f3a92d9db7",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAgriculture%2FPii.png?alt=media&token=f7d7880d-d9f5-47c0-941c-43413eff5163",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAgriculture%2FPiii.png?alt=media&token=9cd099fa-f5c8-4875-8785-47b3927dc03f",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAgriculture%2FPiv.png?alt=media&token=3f04036e-556d-4a22-bc17-9964172ac85d"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAgriculture%2FWI.png?alt=media&token=f3f4bc81-3ba5-416d-b178-4ca87aeaf3af",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAgriculture%2FWII.png?alt=media&token=247906c5-d3b7-4e41-af4d-2ebb74534122",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAgriculture%2FWIII.png?alt=media&token=9159bc96-7439-4492-911a-2d5eefc049f9",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAgriculture%2FWIV.png?alt=media&token=d58c1046-21d0-4274-bf47-0641960b52fb"
     },
     demoUrl: "https://agro-pulse-web-bloom.lovable.app/",
     features: [
@@ -395,10 +395,10 @@ export const templates: Template[] = [
     shortDescription: "Sophisticated template for aerospace companies to present technologies and solutions",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAerospace%20and%20Defense%2FPi.png?alt=media&token=e778e4d7-3911-4170-9194-19f0c4863439",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAerospace%20and%20Defense%2FPii.png?alt=media&token=93a7dd31-7728-446e-9731-437497556473",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAerospace%20and%20Defense%2FPiii.png?alt=media&token=2fcbc6cb-093e-4af6-a0da-a967def1349c",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAerospace%20and%20Defense%2FPiv.png?alt=media&token=198f2f22-d158-4073-913f-8153a011e7ff"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAerospace%20and%20Defense%2FWI.png?alt=media&token=0843e002-3bab-4033-b697-0bccbf03ee5a",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAerospace%20and%20Defense%2FWII.png?alt=media&token=9b70ba1c-0335-4941-9069-85d1c39f4cc6",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAerospace%20and%20Defense%2FWIII.png?alt=media&token=fc886e8f-c920-493f-a039-7de22012754b",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAerospace%20and%20Defense%2FWIV.png?alt=media&token=db432613-7fc1-4f49-8f30-d2e2c53ac3ae"
     },
     demoUrl: "https://skyedge-aero-nexus.lovable.app/",
     features: [
@@ -419,10 +419,10 @@ export const templates: Template[] = [
     shortDescription: "Robust template for construction companies to present projects and services",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConstruction%2FPi.png?alt=media&token=a5d7ce65-0143-46cd-986b-28ddcec269e6",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConstruction%2FPii.png?alt=media&token=ffdec365-deb7-4021-bb5f-0e59839f825e",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConstruction%2FPiii.png?alt=media&token=5e1ff966-6458-4f24-84d1-34a0b3928374",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConstruction%2FPiv.png?alt=media&token=f3102fce-6030-4580-974d-c1f351c490ce"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConstruction%2FWI.png?alt=media&token=662989e5-0879-4beb-affa-0a9ee80455bc",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConstruction%2FWII.png?alt=media&token=a56fc275-99ad-47e3-9e1d-0185781be8fd",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConstruction%2FWIII.png?alt=media&token=9fcfb276-ed24-4edc-8790-b6eb6e081d05",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConstruction%2FWIV.png?alt=media&token=810dfbf8-87ec-49a2-ab3c-b8d363d43b17"
     },
     demoUrl: "https://v0-constructra-website-design-7tn1ceska.vercel.app/",
     features: [
@@ -467,10 +467,10 @@ export const templates: Template[] = [
     shortDescription: "Precise template for chemical manufacturers to present products and safety standards",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FChemical%20Manufacturing%2FPi.png?alt=media&token=c9d1af1b-33ad-445a-8c86-0dd5e71454a3",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FChemical%20Manufacturing%2FPii.png?alt=media&token=5926da75-c82a-484e-944c-793edbaf993b",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FChemical%20Manufacturing%2FPiii.png?alt=media&token=5a1af3e7-5189-48a3-a0ed-40d2bfaff7e5",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FChemical%20Manufacturing%2FPiv.png?alt=media&token=fff2d16f-c1eb-46c4-a5de-888de6511f8a"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FChemical%20Manufacturing%2FWI.png?alt=media&token=644e14ea-521f-4f7a-b48f-aff77438895c",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FChemical%20Manufacturing%2FWII.png?alt=media&token=abdfdd9c-8406-4556-a20f-e16a995401fa",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FChemical%20Manufacturing%2FWIII.png?alt=media&token=b9420016-ee2b-416c-acac-b55acdaecefe",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FChemical%20Manufacturing%2FWIV.png?alt=media&token=74009228-ea45-46d8-8fc3-6549695f5df4"
     },
     demoUrl: "https://chempro-safety-nexus.lovable.app/",
     features: [
@@ -662,9 +662,9 @@ export const templates: Template[] = [
     price: 39,
     previews: {
       PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAdvertising%20and%20Marketing%2FPI.png?alt=media&token=080bda0d-af80-4657-94bc-89880e26ff83",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAdvertising%20and%20Marketing%2FPii.png?alt=media&token=d73b5559-938a-44ca-98d5-53f0654f5d25",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAdvertising%20and%20Marketing%2FPiii.png?alt=media&token=30e443f4-e299-48e3-8cbd-d61067979ef3",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAdvertising%20and%20Marketing%2FPiv.png?alt=media&token=15e3e16a-612b-4681-9ed2-c2e82eb7a0f6"
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAdvertising%20and%20Marketing%2FPII.png?alt=media&token=007e3eed-18e4-427e-bf16-719ef8fc371b",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAdvertising%20and%20Marketing%2FPIII.png?alt=media&token=5ec14516-42df-4679-a7ee-2d45f644d307",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FAdvertising%20and%20Marketing%2FPIV.png?alt=media&token=8248f7dd-aea1-4ec1-93f2-0c7b8e7e0fed"
     },
     demoUrl: "https://project-heavenly-palace-190.magicpatterns.app/",
     features: [
@@ -709,10 +709,10 @@ export const templates: Template[] = [
     shortDescription: "Advanced template for biotech companies to present innovations and research projects",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBiotechnology%2FPi.png?alt=media&token=8f5fc5d2-a180-40af-b192-c802e13cc666",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBiotechnology%2FPiii.png?alt=media&token=8f04e570-f4c8-4344-a199-7925e7d87481",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBiotechnology%2FPii.png?alt=media&token=ed11ef20-d14e-454a-bb61-186ef0978c9d",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBiotechnology%2FPiv.png?alt=media&token=d0690c86-2e22-44ed-ad20-de099330aade"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBiotechnology%2FWI.png?alt=media&token=b29bcc04-198e-45ab-81ad-3072e1233709",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBiotechnology%2FWII.png?alt=media&token=a9747647-26f0-4a52-a8f3-87f6828dbcd5",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBiotechnology%2FWIII.png?alt=media&token=fd57bfb3-8ae4-4b28-b6da-78bdc16ab61f",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FBiotechnology%2FWIV.png?alt=media&token=a8363783-b334-4a07-ab4d-a9040e2cd34c"
     },
     demoUrl: "https://project-genenova-biotechnology-website-design-649.magicpatterns.app/",
     features: [
@@ -734,10 +734,10 @@ export const templates: Template[] = [
     shortDescription: "Cutting-edge template for AI companies to present solutions and data analytics",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FArtificial%20Intelligence%2FPi.png?alt=media&token=75ff8f11-70b8-4680-b442-b07e51588aad",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FArtificial%20Intelligence%2FPii.png?alt=media&token=a4a88e67-324d-4db0-bc67-61db386c49a3",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FArtificial%20Intelligence%2FPiii.png?alt=media&token=ec7aea8d-6cc7-47e5-89d2-c04a83d925ea",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FArtificial%20Intelligence%2FPiv.png?alt=media&token=0c6f0746-c514-4b00-a433-82f2387eff9c"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FArtificial%20Intelligence%2FWI.png?alt=media&token=d6852577-6cb8-4739-afc8-d5422a6d64d2",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FArtificial%20Intelligence%2FWII.png?alt=media&token=7ba5a423-dd30-4e20-9c39-4a0c7717d376",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FArtificial%20Intelligence%2FWIII.png?alt=media&token=b181e684-0e2c-4636-96b1-ff46d8672a85",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FArtificial%20Intelligence%2FWIV.png?alt=media&token=477fed32-2888-4398-9035-b86bd6be589d"
     },
     demoUrl: "https://splendorous-praline-c83b1a.netlify.app/",
     features: [
@@ -758,10 +758,10 @@ export const templates: Template[] = [
     shortDescription: "Secure template for cybersecurity firms to present security solutions and threat prevention",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCybersecurity%2FPi.png?alt=media&token=83d19a90-5afd-4f09-881e-1ade41e1daf2",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCybersecurity%2FPii.png?alt=media&token=0c56949a-c286-44f1-b1c1-90c435e77790",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCybersecurity%2FPiii.png?alt=media&token=c3e46ba8-1b57-4e08-9b07-a1e254212274",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCybersecurity%2FPiv.png?alt=media&token=c2377e61-7b30-4fe3-9078-ca2c97362d06"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCybersecurity%2FWI.png?alt=media&token=4cd47292-fd6c-4230-ad27-a0693a4596e1",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCybersecurity%2FWII.png?alt=media&token=cd2bb5c3-39a9-4fb3-84b7-d52439d1380e''''''",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCybersecurity%2FWIII.png?alt=media&token=ae87e51d-cb90-46dc-a38e-491bf97c7d1a",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCybersecurity%2FWIV.png?alt=media&token=8d1f597e-f925-4a9e-843a-e6081a2f12c1"
     },
     demoUrl: "https://cyber-shield-vault-web.lovable.app/",
     features: [
@@ -855,10 +855,10 @@ export const templates: Template[] = [
     shortDescription: "Maritime template for fishing companies to present operations and seafood products",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCommercial%20Fishing%2FPi.png?alt=media&token=a470d6ab-e44d-4a4e-a019-89cbb8bd7795",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCommercial%20Fishing%2FPii.png?alt=media&token=7869e7db-7008-4117-8060-ffc1e68d9300",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCommercial%20Fishing%2FPiii.png?alt=media&token=2c84131f-188d-4708-8c56-82f8c0c48da8",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCommercial%20Fishing%2FPiv.png?alt=media&token=c96ff086-5361-4ae8-94f6-d8a8aa2ccd20"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCommercial%20Fishing%2FWI.png?alt=media&token=f0d726ad-bae2-4fc3-83cb-410fe7d5be52",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCommercial%20Fishing%2FWII.png?alt=media&token=2e5712d6-b67c-41d5-8e59-817e5885fed6",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCommercial%20Fishing%2FWIII.png?alt=media&token=570e1ed1-c9a2-4983-802a-56c2275f89cf",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FCommercial%20Fishing%2FWIV.png?alt=media&token=3baab62c-9359-4694-9da9-f665d048f385"
     },
     demoUrl: "https://bluefin-fleet-voyage.lovable.app/",
     features: [
@@ -1120,10 +1120,10 @@ export const templates: Template[] = [
     shortDescription: "Modern template for electronics brands to present products and specifications",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConsumer%20Electronics%2FPi.png?alt=media&token=56c68200-f98d-482a-b096-7b73537483bf",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConsumer%20Electronics%2FPii.png?alt=media&token=4f243e21-be21-4cb2-b5e7-3d8755e3266d",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConsumer%20Electronics%2FPiii.png?alt=media&token=ec961c18-e072-4565-929c-1e22a5851573",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConsumer%20Electronics%2FPiv.png?alt=media&token=67e3f3ae-7325-428a-acfc-e5cec79be249"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConsumer%20Electronics%2FWI.png?alt=media&token=63b0ccda-ea7d-403f-9847-b2b4ce42df23",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConsumer%20Electronics%2FWII.png?alt=media&token=21381973-f5cc-4df6-a5bc-b6082136f2d6",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConsumer%20Electronics%2FWIII.png?alt=media&token=d918a2ab-7992-4e74-80a1-4c04cd510912",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FConsumer%20Electronics%2FWIV.png?alt=media&token=011faece-c891-49a5-b29f-159f33d1574f"
     },
     demoUrl: "https://techno-vista-nexus-site.lovable.app/",
     features: [
