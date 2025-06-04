@@ -323,9 +323,9 @@ export const templates: Template[] = [
     shortDescription: "Clean template for food processing companies to present products and quality standards",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFood%20Processing%2FPi.png?alt=media&token=12b38e28-83f2-4b77-b31b-114f6e796976",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFood%20Processing%2FPii.png?alt=media&token=39fdabfd-2fe8-42c0-8a31-9119a30b8983",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFood%20Processing%2FPiv.png?alt=media&token=38d2b610-c894-4090-a0de-18d931c5b5f8",
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFood%20Processing%2FWI.png?alt=media&token=66865570-3fe5-44d5-8d84-e6cadc16812b",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFood%20Processing%2FWII.png?alt=media&token=2f4e5852-1329-41f5-b62f-6b3c7404fb7c",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFood%20Processing%2FWIII.png?alt=media&token=96bccd98-2f01-4426-86eb-51c0d8ee2629",
       PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFood%20Processing%2FPiii.png?alt=media&token=ffcd155f-ce3d-4e25-9e45-1b7c25233800"
     },
     demoUrl: "https://nutri-core-web.lovable.app/",
@@ -515,10 +515,10 @@ export const templates: Template[] = [
     shortDescription: "Creative template for entertainment companies to present productions and media services",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FEntertainment%20and%20Media%2FPi.png?alt=media&token=e08ee716-8419-4ca2-b09d-1bf04cf9f7b8",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FEntertainment%20and%20Media%2FPiv.png?alt=media&token=90a99d9b-92a6-490e-b435-0241ee15ea26",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FEntertainment%20and%20Media%2FPii.png?alt=media&token=b8cf7830-c8a7-45d9-9e52-eb93430ba938",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FEntertainment%20and%20Media%2FPiii.png?alt=media&token=e5821b01-b439-4120-97cd-72c0c9291dda"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FEntertainment%20and%20Media%2FWI.png?alt=media&token=08ed7ac0-844f-4ac3-bc6d-adcb494e48a5",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FEntertainment%20and%20Media%2FWII.png?alt=media&token=b11ca548-2df9-467d-96ee-d887097cecc0",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FEntertainment%20and%20Media%2FWIII.png?alt=media&token=ec3d237a-e8f6-4dde-a93e-3a4b64eaeea5",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FEntertainment%20and%20Media%2FWIV.png?alt=media&token=8bb384ee-3a60-48a4-bce9-a2f06d65ab9b"
     },
     demoUrl: "https://visualflow-media-showcase.lovable.app/",
     features: [
@@ -540,10 +540,10 @@ export const templates: Template[] = [
     shortDescription: "Stylish template for fashion brands to present collections and apparel products",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFashion%20and%20Apparel%2FPi.png?alt=media&token=d0ee332b-60d6-4ee4-abc7-5db0da1bf36b",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFashion%20and%20Apparel%2FPii.png?alt=media&token=978b2fc9-cbbd-48d8-bc92-7c6523d79eb9",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFashion%20and%20Apparel%2FPiii.png?alt=media&token=f0e6021c-8129-4263-bdb8-5d4447a0a675",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFashion%20and%20Apparel%2FPiv.png?alt=media&token=45fa02c0-f1eb-42f7-9fe2-7ee231e75799"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFashion%20and%20Apparel%2FWI.png?alt=media&token=66c72e70-236a-460b-87ee-5e0e86f11fe3",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFashion%20and%20Apparel%2FWII.png?alt=media&token=2b1c510e-e14b-45d9-b6aa-a1aa3feca7f0",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFashion%20and%20Apparel%2FWIII.png?alt=media&token=ca197030-b7b7-4012-8347-ad6f7083368c",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFashion%20and%20Apparel%2FWIV.png?alt=media&token=d61fb34c-2ba3-4571-8df3-a3c7fb005aac"
     },
     demoUrl: "https://vibe-fashion-forge.lovable.app/",
     features: [
@@ -564,10 +564,10 @@ export const templates: Template[] = [
     shortDescription: "Complete template for online stores to present products and shopping experiences",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FE-commerce%2FPi.png?alt=media&token=e23d31cb-84c8-4374-a3b4-a87dd3d17947",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FE-commerce%2FPii.png?alt=media&token=9fb3a947-3314-4906-9454-f88d584034fa",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FE-commerce%2FPiii.png?alt=media&token=f44ea005-85eb-4723-8822-78126ab117b2",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FE-commerce%2FPiv.png?alt=media&token=ad52502e-c6a5-497e-aa80-0399f0b1f023"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FE-commerce%2FWI.png?alt=media&token=2c0a9ce1-7a33-47b7-a25d-00fe338527fa",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FE-commerce%2FWII.png?alt=media&token=ba045f18-20e1-4791-861c-2188945e900f",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FE-commerce%2FWIII.png?alt=media&token=efafc1d9-9899-40a9-8c80-69605bf2e63c",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FE-commerce%2FWIV.png?alt=media&token=ad88cbf5-99cc-4705-9a92-2506ed33a8ab"
     },
     demoUrl: "https://v0-buy-gizmo-e-commerce.vercel.app/",
     features: [
@@ -806,10 +806,10 @@ export const templates: Template[] = [
     shortDescription: "Innovative template for fintech startups to present technologies and financial tools",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFintech%2FPi.png?alt=media&token=6ca8ab60-528e-4489-9a9b-420b1e2f79d6",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFintech%2FPii.png?alt=media&token=1cad4dd6-1bfe-4732-9ab3-1cef566883f0",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFintech%2FPiii.png?alt=media&token=6ef6cba5-0db2-437b-bf6a-dd74117a121b",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFintech%2FPiv.png?alt=media&token=ff2957e8-671d-401f-bcf0-4581e4a9d372"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFintech%2FWI.png?alt=media&token=86fab84a-697b-4f31-a20d-9c492214b5e2",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFintech%2FWII.png?alt=media&token=d8e5718d-c34c-4f3a-a4f8-3df2a263777d",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFintech%2FWIII.png?alt=media&token=0622a620-4010-413c-af34-3ef7ecd044ab",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFintech%2FWIV.png?alt=media&token=601a8266-a320-4e54-9547-4c991e00f790"
     },
     demoUrl: "https://v0-payverse-website-design.vercel.app/",
     features: [
@@ -879,10 +879,10 @@ export const templates: Template[] = [
     shortDescription: "Natural template for forestry companies to present operations and timber products",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FForestry%20and%20Wood%20Products%2FPi.png?alt=media&token=b697f2ce-2738-4396-a500-aceb23c46fd9",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FForestry%20and%20Wood%20Products%2FPii.png?alt=media&token=d961d1fd-8fe3-4e38-bdbb-c02b1386c498",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FForestry%20and%20Wood%20Products%2FPiii.png?alt=media&token=bb86f406-8f86-4c34-92ff-1a0d4cfe6968",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FForestry%20and%20Wood%20Products%2FPiv.png?alt=media&token=a2feb960-a70e-47ed-a2d4-4f4d3cf81b28"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FForestry%20and%20Wood%20Products%2FWI.png?alt=media&token=18ff824c-3123-4291-b6aa-0237e88f0eee",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FForestry%20and%20Wood%20Products%2FWII.png?alt=media&token=887c741c-e1a1-4a56-8fbc-3426b344529b",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FForestry%20and%20Wood%20Products%2FWIII.png?alt=media&token=7ee0534b-9c84-4548-9ef9-b57fe99434de",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FForestry%20and%20Wood%20Products%2FWIV.png?alt=media&token=55005697-607e-4624-9ab0-b1d35cdbf6e9"
     },
     demoUrl: "https://v0-forest-line-website.vercel.app/",
     features: [
@@ -976,10 +976,10 @@ export const templates: Template[] = [
     shortDescription: "Cinematic template for film studios to present projects and production services",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFilm%20Production%2FPi.png?alt=media&token=341e7ad2-9406-48f1-9e41-29ae17de2073",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFilm%20Production%2FPii.png?alt=media&token=1e9b8eb8-d817-4009-bed5-5fac578980d0",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFilm%20Production%2FPiii.png?alt=media&token=f5920e30-4ecf-47aa-a76c-1c6252d9bb92",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFilm%20Production%2FPiv.png?alt=media&token=f4a5ec97-a75f-4943-a748-3e3863808327"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFilm%20Production%2FWI.png?alt=media&token=3fb9adff-e655-4008-babb-18cda5fa3a07",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFilm%20Production%2FWII.png?alt=media&token=e783711b-e98e-455f-a249-eb9d3875dd26",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFilm%20Production%2FWIII.png?alt=media&token=24a0a8e2-400c-4f87-b198-92c18bc531fa",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFilm%20Production%2FWIV.png?alt=media&token=a0b071c5-d22c-4e7f-a477-b3b319eaaa79"
     },
     demoUrl: "https://v0-cinehive-studios-website.vercel.app/",
     features: [
@@ -1048,10 +1048,10 @@ export const templates: Template[] = [
     shortDescription: "Elegant template for art galleries to present collections and auction events",
     price: 39,
     previews: {
-      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFine%20Art%20and%20Auction%20Houses%2FPi.png?alt=media&token=976569a4-4a27-4ca3-9719-544567010560",
-      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFine%20Art%20and%20Auction%20Houses%2FPii.png?alt=media&token=ee9dd82f-4071-4f4b-b33b-6c1fe5e8cc84",
-      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFine%20Art%20and%20Auction%20Houses%2FPiii.png?alt=media&token=6cb9f4de-7d9d-4683-b911-eb3f1d1c3e7e",
-      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFine%20Art%20and%20Auction%20Houses%2FPiv.png?alt=media&token=15c48a79-06e6-4a12-97f5-6cfbf27b5776"
+      PI: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFine%20Art%20and%20Auction%20Houses%2FWI.png?alt=media&token=2dd0c7e7-b3d9-41c9-9821-0c6cb2b79791",
+      PII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFine%20Art%20and%20Auction%20Houses%2FWII.png?alt=media&token=e68ad630-a505-44db-bc5b-29957a138967",
+      PIII: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFine%20Art%20and%20Auction%20Houses%2FWIII.png?alt=media&token=91925314-d18b-4c88-b0b3-a8d4a8799b7e",
+      PIV: "https://firebasestorage.googleapis.com/v0/b/icdatinnovation.appspot.com/o/50%20websites%2FFine%20Art%20and%20Auction%20Houses%2FWIV.png?alt=media&token=43ed30e1-89c7-422f-ad78-fd1320210a95"
     },
     demoUrl: "https://artvogue-auction-elegance.lovable.app/",
     features: [
