@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { Avatar, AvatarImage, AvatarFallback } from './ui/avatar';
 import { Card, CardContent } from './ui/card';
 
 const testimonials = [
@@ -9,7 +8,6 @@ const testimonials = [
     name: "Marcus Thompson",
     title: "E-commerce Store Owner",
     content: "Launched my fitness equipment store in 48 hours using Davedigitals' e-commerce template. Sales hit $15K in the first month! The payment integration and responsive design saved me weeks of development time.",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
     initials: "MT"
   },
   {
@@ -17,7 +15,6 @@ const testimonials = [
     name: "Elena Rodriguez",
     title: "Digital Marketing Consultant",
     content: "I've built 12 client websites this year using these templates. Each project that used to take 3 weeks now takes 3 days. My clients love the professional look and my profit margins have tripled.",
-    avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
     initials: "ER"
   },
   {
@@ -25,7 +22,6 @@ const testimonials = [
     name: "David Kim",
     title: "Tech Startup Founder",
     content: "Our AI consulting firm needed a website that screamed 'innovation.' The tech template was perfect - clean, modern, and loaded fast. We closed our first $50K deal within a week of launching.",
-    avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
     initials: "DK"
   },
   {
@@ -33,7 +29,6 @@ const testimonials = [
     name: "Priya Sharma",
     title: "Restaurant Chain Owner",
     content: "Opened 3 new locations during COVID using the hospitality template for online ordering. The mobile-first design increased our delivery orders by 300%. Best investment I made for my business.",
-    avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
     initials: "PS"
   },
   {
@@ -41,7 +36,6 @@ const testimonials = [
     name: "James Mitchell",
     title: "Real Estate Broker",
     content: "The real estate template helped me showcase properties beautifully. Lead generation increased by 250% and I'm closing deals faster. My competitors are asking how I got such a professional website so quickly.",
-    avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face",
     initials: "JM"
   },
   {
@@ -49,7 +43,6 @@ const testimonials = [
     name: "Sarah Chen",
     title: "Creative Agency Director",
     content: "We've used 8 different templates for client projects this year. The code quality is exceptional and customization is straightforward. Our development time decreased by 60% while maintaining premium quality.",
-    avatar: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
     initials: "SC"
   }
 ];
@@ -63,20 +56,9 @@ const TestimonialsSection = () => {
           {testimonials.map((testimonial) => (
             <Card key={testimonial.id} className="hover:shadow-lg transition-all duration-300">
               <CardContent className="p-6">
-                <div className="flex items-center mb-4">
-                  <Avatar className="w-12 h-12 mr-4">
-                    <AvatarImage 
-                      src={testimonial.avatar} 
-                      alt={testimonial.name}
-                    />
-                    <AvatarFallback className="bg-blue-500 text-white">
-                      {testimonial.initials}
-                    </AvatarFallback>
-                  </Avatar>
-                  <div>
-                    <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
-                    <p className="text-gray-600 text-sm">{testimonial.title}</p>
-                  </div>
+                <div className="mb-4">
+                  <h4 className="font-semibold text-gray-900 text-lg">{testimonial.name}</h4>
+                  <p className="text-gray-600 text-sm">{testimonial.title}</p>
                 </div>
                 <p className="text-gray-700 mb-4 leading-relaxed">{testimonial.content}</p>
                 <div className="flex">
