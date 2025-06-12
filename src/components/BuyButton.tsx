@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { toast } from '../hooks/use-toast';
+import { trackSingleTemplatePurchase, trackBundlePurchase } from '../utils/googleAds';
 
 interface BuyButtonProps {
   templateName: string;
@@ -79,6 +80,13 @@ const BuyButton: React.FC<BuyButtonProps> = ({ templateName, price, templateSlug
     
     // Use the correct Stripe payment link for the template
     const paymentLink = stripePaymentLinks[templateSlug] || 'https://buy.stripe.com/6oU00i8ot2bW4hf94n7kc01';
+    
+    // Track the purchase conversion for Google Ads
+    if (bundle) {
+      trackBundlePurchase();
+    } else {
+      trackSingleTemplatePurchase(templateName);
+    }
     
     // Redirect to Stripe checkout
     setTimeout(() => {

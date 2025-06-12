@@ -1,8 +1,10 @@
+
 import React, { useEffect, useState } from 'react';
 import { useParams, Link, useSearchParams } from 'react-router-dom';
 import { templates } from '../data/templates';
 import { Template } from '../types';
 import { Helmet } from 'react-helmet-async';
+import { trackSingleTemplatePurchase, trackBundlePurchase } from '../utils/googleAds';
 
 const ThankYouPage = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -25,6 +27,15 @@ const ThankYouPage = () => {
     
     if (hasStripeSession || cameFromStripe) {
       setIsValidAccess(true);
+      
+      // Track Google Ads conversion for successful purchase
+      if (foundTemplate) {
+        if (slug === 'full-template-bundle') {
+          trackBundlePurchase();
+        } else {
+          trackSingleTemplatePurchase(foundTemplate.name);
+        }
+      }
       
       // Auto-download after 3 seconds for valid access
       const timer = setTimeout(() => {
