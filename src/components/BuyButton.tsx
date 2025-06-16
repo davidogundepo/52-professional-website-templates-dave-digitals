@@ -42,7 +42,7 @@ const BuyButton: React.FC<BuyButtonProps> = ({ templateName, price, templateSlug
     'fashion-apparel': 'https://buy.stripe.com/6oU6oGfQV9Eo7tr4O77kc0o',
     'e-commerce': 'https://buy.stripe.com/3cIbJ0gUZ3g0fZX4O77kc0p',
     'logistics-supply-chain': 'https://buy.stripe.com/cNifZgeMR8AkcNLdkD7kc0q',
-    'legal': 'https://buy.stripe.com/cNidR89sx17ScNL80j7kc0r',
+    'legal-services': 'https://buy.stripe.com/cNidR89sx17ScNL80j7kc0r',
     'management-consulting': 'https://buy.stripe.com/cNi4gybAFeYIaFD2FZ7kc0s',
     'advertising-marketing': 'https://buy.stripe.com/cNi28qbAF6scfZX1BV7kc0t',
     'public-relations-agency': 'https://buy.stripe.com/8x214m7kp3g04hfa8r7kc0u',
