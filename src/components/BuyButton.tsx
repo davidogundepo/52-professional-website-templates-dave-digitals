@@ -33,7 +33,7 @@ const BuyButton: React.FC<BuyButtonProps> = ({ templateName, price, templateSlug
     'food-processing': 'https://buy.stripe.com/00w8wOcEJaIs5ljgwP7kc0f',
     'retail-store': 'https://buy.stripe.com/5kQ9AS6gl3g07trdkD7kc0g',
     'hospitality-tourism': 'https://buy.stripe.com/bJeeVc48d5o84hf94n7kc0h',
-    'aerospace': 'https://buy.stripe.com/8x2aEW5cheYI9Bz6Wf7kc0i',
+    'aerospace-defense': 'https://buy.stripe.com/8x2aEW5cheYI9Bz6Wf7kc0i',
     'construction-company': 'https://buy.stripe.com/cNidR82055o86pncgz7kc0j',
     'mining-minerals': 'https://buy.stripe.com/7sYeVc349g2MaFD6Wf7kc0k',
     'chemical-manufacturing': 'https://buy.stripe.com/fZudR89sx6sc8xvgwP7kc0l',
