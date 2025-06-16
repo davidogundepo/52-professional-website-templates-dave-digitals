@@ -1,4 +1,3 @@
-
 import React from 'react';
 import BuyButton from '../components/BuyButton';
 import { templates } from '../data/templates';
@@ -6,16 +5,16 @@ import { Helmet } from 'react-helmet-async';
 
 const BundlePage = () => {
   const totalValue = templates.length * 39;
-  const bundlePrice = 1499;
+  const bundlePrice = 899;
   const discount = ((totalValue - bundlePrice) / totalValue * 100).toFixed(0);
 
   return (
     <>
       <Helmet>
-        <title>Full Template Bundle - Davedigitals | 52 Templates for $1,499</title>
-        <meta name="description" content="Get all 52 professional website templates for just $1,499. Save 26% compared to individual purchases. 30-day money-back guarantee." />
+        <title>Full Template Bundle - Davedigitals | 52 Templates for $899</title>
+        <meta name="description" content="Get all 52 professional website templates for just $899. Save 56% compared to individual purchases. 30-day money-back guarantee." />
         <meta name="keywords" content="website templates bundle, template pack, web design bundle, professional templates, website template collection" />
-        <meta property="og:title" content="52 Website Templates Bundle - $1,499" />
+        <meta property="og:title" content="52 Website Templates Bundle - $899" />
         <meta property="og:description" content="Complete collection of 52 professional website templates. Save hundreds compared to individual purchases." />
       </Helmet>
       
@@ -33,7 +32,7 @@ const BundlePage = () => {
           </div>
           <h1 className="text-4xl font-bold mb-4">Get All 52 Templates</h1>
           <p className="text-xl max-w-3xl mx-auto mb-8">
-            Save big by purchasing our complete bundle. All 52 professional website templates for just $1,499.
+            Save big by purchasing our complete bundle. All 52 professional website templates for just $899.
           </p>
           <div className="text-center">
             <span className="bg-white text-green-600 px-6 py-3 rounded-lg font-bold text-lg">
@@ -54,7 +53,7 @@ const BundlePage = () => {
                     <p className="text-gray-600">All 52 premium website templates</p>
                     <div className="mt-2">
                       <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-semibold">
-                        🔥 Hot Deal - Save $529!
+                        🔥 Hot Deal - Save $1,129!
                       </span>
                     </div>
                   </div>
@@ -125,7 +124,7 @@ const BundlePage = () => {
                   </div>
                   <h3 className="font-semibold text-lg mb-2">Massive Savings</h3>
                   <p className="text-gray-600">
-                    Save over $529 compared to buying each template individually. That's a {discount}% discount!
+                    Save over $1,129 compared to buying each template individually. That's a {discount}% discount!
                   </p>
                 </div>
                 

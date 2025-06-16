@@ -10,7 +10,7 @@ const NavbarBundleButton = () => {
     >
       <span className="relative z-10">Full Bundle</span>
       <div className="absolute -top-1 -right-1 bg-red-500 text-white text-xs px-2 py-1 rounded-full animate-pulse">
-        Save $529!
+        Save $1,129!
       </div>
     </Link>
   );

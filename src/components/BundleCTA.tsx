@@ -8,12 +8,12 @@ const BundleCTA = () => {
       <div className="container mx-auto px-4 text-center">
         <div className="mb-4">
           <span className="inline-block bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold mb-2 animate-pulse">
-            🔥 LIMITED TIME: Save $539!
+            🔥 LIMITED TIME: Save $1,129!
           </span>
         </div>
-        <h2 className="text-3xl font-bold mb-4">Get All 52 Templates and Save 62%</h2>
+        <h2 className="text-3xl font-bold mb-4">Get All 52 Templates and Save 56%</h2>
         <p className="text-xl max-w-2xl mx-auto mb-6">
-          Purchase the complete bundle for just $1,499 instead of $2,028 if bought separately.
+          Purchase the complete bundle for just $899 instead of $2,028 if bought separately.
         </p>
         <div className="mb-6">
           <span className="bg-white text-green-600 px-4 py-2 rounded-lg font-semibold text-lg">
@@ -21,7 +21,7 @@ const BundleCTA = () => {
           </span>
         </div>
         <Link to="/bundle" className="inline-block bg-white text-primary font-bold py-3 px-8 rounded-md hover:bg-gray-100 transition-colors">
-          Get The Bundle - $1,499
+          Get The Bundle - $899
         </Link>
       </div>
     </section>

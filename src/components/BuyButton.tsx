@@ -112,7 +112,7 @@ const BuyButton: React.FC<BuyButtonProps> = ({ templateName, price, templateSlug
         onClick={handlePurchase}
         className="btn-primary w-full py-3 text-lg"
       >
-        {bundle ? "Buy Full Bundle - $1,499" : `Buy Now - $${price}`}
+        {bundle ? "Buy Full Bundle - $899" : `Buy Now - $${price}`}
       </button>
       <div className="text-center">
         <span className="text-sm text-green-600 font-medium">

@@ -29,16 +29,16 @@ export const trackBundlePurchase = () => {
   if (typeof window !== 'undefined' && window.gtag) {
     window.gtag('event', 'purchase', {
       'transaction_id': 'bundle_' + Date.now(),
-      'value': 1499,
+      'value': 899,
       'currency': 'USD',
       'items': [{
         'item_id': 'template_bundle',
         'item_name': '52 Website Templates Bundle',
         'category': 'Digital Product',
         'quantity': 1,
-        'price': 1499
+        'price': 899
       }]
     });
-    console.log('Google Ads: Bundle purchase tracked ($1,499)');
+    console.log('Google Ads: Bundle purchase tracked ($899)');
   }
 };
