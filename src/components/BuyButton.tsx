@@ -14,7 +14,7 @@ const BuyButton: React.FC<BuyButtonProps> = ({ templateName, price, templateSlug
   // Map of template slugs to their corresponding Stripe payment links
   const stripePaymentLinks: Record<string, string> = {
     // Bundle
-    'full-template-bundle': 'https://buy.stripe.com/28E9AS5chaIs3db80j7kc00',
+    'full-template-bundle': 'https://buy.stripe.com/7sYaEW9sxdUE5lj3K37kc0S',
     
     // Individual templates
     'oil-and-gas': 'https://buy.stripe.com/3cI14mdIN03OaFD4O77kc02',
