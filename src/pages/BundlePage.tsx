@@ -6,23 +6,40 @@ import { Helmet } from 'react-helmet-async';
 
 const BundlePage = () => {
   const totalValue = templates.length * 39;
-  const bundlePrice = 129;
+  const bundlePrice = 1499;
   const discount = ((totalValue - bundlePrice) / totalValue * 100).toFixed(0);
 
   return (
     <>
       <Helmet>
-        <title>Full Template Bundle - Davedigitals</title>
-        <meta name="description" content="Get all 52 professional website templates for just $129. Save 94% compared to individual purchases." />
-        <meta name="keywords" content="website templates bundle, template pack, web design bundle, professional templates" />
+        <title>Full Template Bundle - Davedigitals | 52 Templates for $1,499</title>
+        <meta name="description" content="Get all 52 professional website templates for just $1,499. Save 26% compared to individual purchases. 30-day money-back guarantee." />
+        <meta name="keywords" content="website templates bundle, template pack, web design bundle, professional templates, website template collection" />
+        <meta property="og:title" content="52 Website Templates Bundle - $1,499" />
+        <meta property="og:description" content="Complete collection of 52 professional website templates. Save hundreds compared to individual purchases." />
       </Helmet>
       
-      <section className="bg-gradient-to-r from-green-600 to-green-700 text-white py-20">
+      <section className="bg-gradient-to-r from-green-600 to-green-700 text-white py-20 relative overflow-hidden">
+        <div className="absolute top-4 right-4">
+          <div className="bg-red-500 text-white px-4 py-2 rounded-full text-sm font-bold animate-pulse">
+            🔥 LIMITED TIME OFFER
+          </div>
+        </div>
         <div className="container mx-auto px-4 text-center">
+          <div className="mb-4">
+            <span className="inline-block bg-yellow-400 text-black px-4 py-2 rounded-full text-sm font-bold">
+              ⚡ 750+ CUSTOMERS CAN'T BE WRONG
+            </span>
+          </div>
           <h1 className="text-4xl font-bold mb-4">Get All 52 Templates</h1>
           <p className="text-xl max-w-3xl mx-auto mb-8">
-            Save big by purchasing our complete bundle. All 52 professional website templates for just $129.
+            Save big by purchasing our complete bundle. All 52 professional website templates for just $1,499.
           </p>
+          <div className="text-center">
+            <span className="bg-white text-green-600 px-6 py-3 rounded-lg font-bold text-lg">
+              💰 30-day no-questions-asked refund
+            </span>
+          </div>
         </div>
       </section>
       
@@ -35,9 +52,14 @@ const BundlePage = () => {
                   <div>
                     <h2 className="text-2xl font-bold">Complete Template Bundle</h2>
                     <p className="text-gray-600">All 52 premium website templates</p>
+                    <div className="mt-2">
+                      <span className="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-semibold">
+                        🔥 Hot Deal - Save $529!
+                      </span>
+                    </div>
                   </div>
                   <div className="mt-4 md:mt-0 text-right">
-                    <div className="text-3xl font-bold text-green-600">$129</div>
+                    <div className="text-3xl font-bold text-green-600">${bundlePrice}</div>
                     <div className="text-gray-500 line-through">${totalValue}</div>
                     <div className="text-green-600 font-medium">Save {discount}%</div>
                   </div>
@@ -103,7 +125,7 @@ const BundlePage = () => {
                   </div>
                   <h3 className="font-semibold text-lg mb-2">Massive Savings</h3>
                   <p className="text-gray-600">
-                    Save over $1,900 compared to buying each template individually. That's a 94% discount!
+                    Save over $529 compared to buying each template individually. That's a {discount}% discount!
                   </p>
                 </div>
                 
@@ -153,7 +175,7 @@ const BundlePage = () => {
                 <div>
                   <h3 className="font-semibold mb-2">Can I request a refund if I'm not satisfied?</h3>
                   <p className="text-gray-600">
-                    We offer a 14-day money-back guarantee. If you're not satisfied with your purchase, contact us within 14 days for a full refund.
+                    We offer a 30-day no-questions-asked money-back guarantee. If you're not satisfied with your purchase, contact us within 30 days for a full refund.
                   </p>
                 </div>
               </div>

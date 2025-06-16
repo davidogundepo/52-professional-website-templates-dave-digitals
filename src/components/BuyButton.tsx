@@ -79,7 +79,17 @@ const BuyButton: React.FC<BuyButtonProps> = ({ templateName, price, templateSlug
     });
     
     // Use the correct Stripe payment link for the template
-    const paymentLink = stripePaymentLinks[templateSlug] || 'https://buy.stripe.com/6oU00i8ot2bW4hf94n7kc01';
+    const paymentLink = stripePaymentLinks[templateSlug];
+    
+    if (!paymentLink) {
+      console.error(`No payment link found for template: ${templateSlug}`);
+      toast({
+        title: "Error",
+        description: "Payment link not found. Please contact support.",
+        duration: 5000,
+      });
+      return;
+    }
     
     // Track the purchase conversion for Google Ads
     if (bundle) {
@@ -97,12 +107,19 @@ const BuyButton: React.FC<BuyButtonProps> = ({ templateName, price, templateSlug
   };
 
   return (
-    <button
-      onClick={handlePurchase}
-      className="btn-primary w-full py-3 text-lg mb-4"
-    >
-      {bundle ? "Buy Full Bundle - $129" : `Buy Now - $${price}`}
-    </button>
+    <div className="space-y-3">
+      <button
+        onClick={handlePurchase}
+        className="btn-primary w-full py-3 text-lg"
+      >
+        {bundle ? "Buy Full Bundle - $1,499" : `Buy Now - $${price}`}
+      </button>
+      <div className="text-center">
+        <span className="text-sm text-green-600 font-medium">
+          💰 30-day no-questions-asked refund
+        </span>
+      </div>
+    </div>
   );
 };
 
