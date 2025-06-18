@@ -13,6 +13,7 @@ import TemplatePage from "./pages/TemplatePage";
 import BundlePage from "./pages/BundlePage";
 import HowToEditPage from "./pages/HowToEditPage";
 import ContactPage from "./pages/ContactPage";
+import PolicyPage from "./pages/PolicyPage";
 import NotFoundPage from "./pages/NotFoundPage";
 import ThankYouPage from "./pages/ThankYouPage"; 
 
@@ -35,6 +36,7 @@ const App = () => (
                 <Route path="/bundle" element={<BundlePage />} />
                 <Route path="/how-to-edit" element={<HowToEditPage />} />
                 <Route path="/contact" element={<ContactPage />} />
+                <Route path="/policy" element={<PolicyPage />} />
                 <Route path="/thank-you/:slug" element={<ThankYouPage />} />
                 <Route path="*" element={<NotFoundPage />} />
               </Routes>
